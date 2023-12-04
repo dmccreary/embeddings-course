@@ -1,0 +1,47 @@
+# Setup
+
+## Conda
+
+```sh
+conda create -n "embeddings" python=3
+```
+
+## Pip Install
+
+```sh
+pip install python-dotenv
+pip install --upgrade openai
+```
+
+## Python Virtual Environment
+
+```sh
+python -m venv openai-env
+source openai-env/bin/activate
+```
+
+## Checking Env
+
+```sh
+pip freeze
+```
+
+```
+annotated-types==0.6.0
+anyio==3.7.1
+certifi==2023.11.17
+distro==1.8.0
+h11==0.14.0
+httpcore==1.0.2
+httpx==0.25.2
+idna==3.6
+openai==1.3.7
+pydantic==2.5.2
+pydantic_core==2.14.5
+python-dotenv==1.0.0
+setuptools==68.0.0
+sniffio==1.3.0
+tqdm==4.66.1
+typing_extensions==4.8.0
+wheel==0.41.2
+```

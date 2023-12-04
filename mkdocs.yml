@@ -1,0 +1,5 @@
+site_name: My Simple Site
+nav:
+  - Home: index.md
+  - Setup: setup.md
+  - Example 1: example-01.md
